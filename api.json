@@ -1,0 +1,476 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/dover-demon",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "dover-demon",
+    "name": "Dover Demon",
+    "aliases": [],
+    "category": "CRYPTID",
+    "subcategory": "Humanoid",
+    "tags": [
+      "humanoid",
+      "cryptid",
+      "alien",
+      "massachusetts",
+      "1977",
+      "single-event",
+      "bipedal"
+    ],
+    "status": "inactive",
+    "description": {
+      "summary": "A bizarre humanoid creature witnessed by four teenagers in Dover, Massachusetts over April 21-22, 1977. Described as 3-4 feet tall with a large head, glowing orange eyes, long fingers, and hairless skin.",
+      "full": "The Dover Demon is a cryptid reported during a brief 25-hour period in April 1977 in Dover, Massachusetts. Four teenage witnesses independently described a bizarre humanoid creature standing 3-4 feet tall with a disproportionately large, watermelon-shaped head, glowing orange eyes, long thin fingers, and rough peach-colored or gray skin. The creature was bipedal and hairless. Cryptozoologist Loren Coleman investigated the sightings and coined the name 'Dover Demon.' The witnesses drew sketches independently that showed remarkable consistency. Theories range from alien visitor to unknown cryptid to misidentified animal (particularly a moose calf). No further sightings have been reported since April 22, 1977, making it one of the most concentrated and enigmatic cryptid events in American folklore."
+    },
+    "etymology": {
+      "origin": "Named by cryptozoologist Loren Coleman",
+      "meaning": "'Dover' for the town, 'Demon' for its strange, otherworldly appearance",
+      "first_use": "1977, during initial investigation"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Humanoid",
+      "subtype": "Unknown origin",
+      "variant": "Single-event phenomenon"
+    },
+    "related_phenomena": [
+      {
+        "id": "greys",
+        "name": "Grey Aliens",
+        "relationship": "similar",
+        "description": "Physical description similarities to Grey alien archetype"
+      },
+      {
+        "id": "hopkinsville-goblins",
+        "name": "Hopkinsville Goblins",
+        "relationship": "similar",
+        "description": "1955 Kentucky encounter with small humanoids"
+      },
+      {
+        "id": "flatwoods-monster",
+        "name": "Flatwoods Monster",
+        "relationship": "similar",
+        "description": "West Virginia cryptid/alien encounter"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 0.9,
+        "max": 1.2,
+        "unit": "meters",
+        "confidence": "medium"
+      },
+      "coloration": [
+        "peach colored",
+        "gray",
+        "tan"
+      ],
+      "features": [
+        {
+          "feature": "Head",
+          "description": "Disproportionately large, watermelon-shaped",
+          "frequency": "always"
+        },
+        {
+          "feature": "Eyes",
+          "description": "Large, glowing orange (described as 'like two orange marbles')",
+          "frequency": "always"
+        },
+        {
+          "feature": "Fingers",
+          "description": "Long, thin fingers with notable dexterity",
+          "frequency": "common"
+        },
+        {
+          "feature": "Skin",
+          "description": "Rough texture, hairless, peach or gray colored",
+          "frequency": "always"
+        },
+        {
+          "feature": "Build",
+          "description": "Thin, spindly limbs, fragile-looking",
+          "frequency": "common"
+        },
+        {
+          "feature": "Face",
+          "description": "No visible nose, mouth, or ears in most accounts",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Bipedal humanoid with disproportionate features, notably large head and eyes, thin body"
+    },
+    "abilities": [
+      {
+        "ability": "Agility",
+        "description": "Moved quickly over stone wall",
+        "frequency": "observed",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Night activity",
+        "description": "All sightings occurred at night",
+        "frequency": "always",
+        "evidence_level": "documented"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "patterns": [
+        "Observed near roads",
+        "Appeared to be observing witnesses",
+        "Did not communicate or attack",
+        "Fled when approached"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Confined entirely to Dover, Massachusetts, April 21-22, 1977",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Massachusetts"]
+    },
+    "hotspots": [
+      {
+        "name": "Farm Street",
+        "location": {
+          "description": "First sighting location",
+          "country": "United States",
+          "region": "Massachusetts",
+          "locality": "Dover",
+          "coordinates": {
+            "latitude": 42.2459,
+            "longitude": -71.2828,
+            "precision": "approximate"
+          }
+        },
+        "sighting_count": 2,
+        "notes": "First sighting by Bill Bartlett"
+      },
+      {
+        "name": "Springdale Avenue",
+        "location": {
+          "description": "Second and third sighting locations",
+          "country": "United States",
+          "region": "Massachusetts",
+          "locality": "Dover"
+        },
+        "sighting_count": 2,
+        "notes": "Sightings by John Baxter and Abby Brabham/Will Taintor"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "1977-04-21",
+        "precision": "exact"
+      },
+      "last_recorded": {
+        "date": "1977-04-22",
+        "precision": "exact"
+      },
+      "duration": "25 hours total"
+    }
+  },
+
+  "history": {
+    "timeline": [
+      {
+        "date": "1977-04-21",
+        "time": "22:30",
+        "event": "First sighting - Bill Bartlett",
+        "significance": "17-year-old driving with friends sees creature on stone wall",
+        "source": "Witness testimony"
+      },
+      {
+        "date": "1977-04-21",
+        "time": "00:00",
+        "circa": true,
+        "event": "Second sighting - John Baxter",
+        "significance": "15-year-old encounters creature while walking home",
+        "source": "Witness testimony"
+      },
+      {
+        "date": "1977-04-22",
+        "time": "00:30",
+        "circa": true,
+        "event": "Third sighting - Abby Brabham and Will Taintor",
+        "significance": "Two witnesses see creature from car",
+        "source": "Witness testimony"
+      },
+      {
+        "date": "1977-04",
+        "event": "Loren Coleman investigation",
+        "significance": "Cryptozoologist investigates and names creature 'Dover Demon'",
+        "source": "Coleman's investigation notes"
+      },
+      {
+        "date": "1977-present",
+        "event": "No further sightings",
+        "significance": "Despite attention, no additional encounters reported",
+        "source": "Public record"
+      }
+    ]
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 3,
+      "verified": 0,
+      "witnesses": 4,
+      "date_range": {
+        "earliest": "1977-04-21",
+        "latest": "1977-04-22"
+      }
+    },
+    "notable": [
+      {
+        "id": "dover-demon-bartlett-1977",
+        "name": "Bill Bartlett Sighting",
+        "date": {
+          "value": "1977-04-21T22:30:00",
+          "precision": "approximate"
+        },
+        "location": {
+          "description": "Farm Street, Dover, Massachusetts",
+          "country": "United States",
+          "region": "Massachusetts",
+          "locality": "Dover"
+        },
+        "witnesses": {
+          "count": 3,
+          "primary_witness": "Bill Bartlett (17 years old)",
+          "other_witnesses": ["Mike Mazzocca", "Andy Brodie"],
+          "credibility_factors": ["Clear conditions", "Multiple people in vehicle", "Independent sketch created"]
+        },
+        "description": "Bill Bartlett was driving with two friends when headlights illuminated a creature on a stone wall. He described it as having a watermelon-shaped head, glowing orange eyes, long thin fingers, rough peach-colored skin, and standing 3-4 feet tall. The creature turned its head to look at the car. Encounter lasted few seconds. Bartlett drew a sketch when he got home.",
+        "conditions": {
+          "weather": "Clear",
+          "visibility": "Night, headlights",
+          "time_of_day": "10:30 PM",
+          "duration": "Few seconds"
+        },
+        "evidence": [
+          "Witness sketch",
+          "Testimony from passengers in car",
+          "Immediate documentation"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Teenage witness (age consideration)",
+            "Immediate drawing created",
+            "Consistent description in later sightings",
+            "No apparent motive for hoax"
+          ]
+        },
+        "featured": true
+      },
+      {
+        "id": "dover-demon-baxter-1977",
+        "name": "John Baxter Sighting",
+        "date": {
+          "value": "1977-04-22T00:00:00",
+          "precision": "approximate"
+        },
+        "location": {
+          "description": "Miller Hill Road/Springdale Avenue, Dover",
+          "country": "United States",
+          "region": "Massachusetts",
+          "locality": "Dover"
+        },
+        "witnesses": {
+          "count": 1,
+          "primary_witness": "John Baxter (15 years old)",
+          "credibility_factors": ["Independent sighting", "Similar description", "Different location"]
+        },
+        "description": "John Baxter was walking home around midnight when he saw a small figure approaching. When he called out thinking it was a friend, the figure ran off into woods. Baxter followed and observed it from about 30 feet away standing near a tree. He described large head, glowing eyes, and thin limbs matching Bartlett's description. The creature appeared to be watching him.",
+        "conditions": {
+          "weather": "Clear",
+          "visibility": "Night",
+          "time_of_day": "Midnight",
+          "duration": "Several minutes"
+        },
+        "evidence": [
+          "Witness sketch",
+          "Independent description matching first sighting",
+          "Different observer, different location"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Independent witness",
+            "Consistent with earlier sighting",
+            "No prior knowledge of Bartlett encounter"
+          ]
+        },
+        "featured": true
+      },
+      {
+        "id": "dover-demon-brabham-taintor-1977",
+        "name": "Abby Brabham and Will Taintor Sighting",
+        "date": {
+          "value": "1977-04-22T00:30:00",
+          "precision": "approximate"
+        },
+        "location": {
+          "description": "Springdale Avenue, Dover",
+          "country": "United States",
+          "region": "Massachusetts",
+          "locality": "Dover"
+        },
+        "witnesses": {
+          "count": 2,
+          "primary_witness": "Abby Brabham (15 years old)",
+          "other_witnesses": ["Will Taintor (18 years old)"],
+          "credibility_factors": ["Two witnesses", "Similar description"]
+        },
+        "description": "Abby Brabham and Will Taintor saw the creature while driving. Brabham described it as having hairless tan/gray skin, large eyes, and thin body. This sighting occurred within hours of Baxter's encounter. Brabham drew a sketch independently.",
+        "conditions": {
+          "weather": "Clear",
+          "visibility": "Night, car headlights",
+          "time_of_day": "12:30 AM",
+          "duration": "Brief"
+        },
+        "evidence": [
+          "Witness sketch by Brabham",
+          "Two witnesses",
+          "Third independent sighting in 25 hours"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Two witnesses",
+            "Consistent description",
+            "Word may have spread by this point"
+          ]
+        },
+        "featured": true
+      }
+    ]
+  },
+
+  "evidence": {
+    "photographic": [],
+    "video": [],
+    "physical": [],
+    "trace": [],
+    "documentary": [
+      {
+        "type": "witness sketches",
+        "description": "Three independent sketches by Bill Bartlett, John Baxter, and Abby Brabham",
+        "status": "consistent",
+        "analysis": "Sketches show remarkable similarity despite independent creation"
+      }
+    ]
+  },
+
+  "theories": {
+    "cryptozoological": [
+      {
+        "name": "Unknown Cryptid",
+        "description": "Unknown terrestrial creature, possibly nocturnal and rare",
+        "proponents": ["Some cryptozoologists"],
+        "evidence_cited": ["Multiple consistent sightings", "Independent witnesses"]
+      }
+    ],
+    "extraterrestrial": [
+      {
+        "name": "Alien Visitor",
+        "description": "Extraterrestrial being, similar to Grey alien descriptions",
+        "evidence_cited": ["Large head and eyes", "Thin limbs", "Brief appearance"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misidentified Moose Calf",
+        "description": "Witnesses saw a young moose or other animal under poor lighting",
+        "proponents": ["Skeptical investigators"],
+        "evidence_cited": ["Teenage witnesses", "Night sightings", "Brief encounters", "Animals can look strange at night"]
+      },
+      {
+        "name": "Hoax",
+        "description": "Coordinated hoax by teenagers",
+        "evidence_cited": ["All witnesses were teens", "Brief timeframe", "No subsequent sightings"],
+        "counterarguments": ["No admission of hoax", "Witnesses maintained story for decades", "Independent sketches"]
+      },
+      {
+        "name": "Mass Hysteria/Suggestion",
+        "description": "Initial sighting led to suggestible subsequent sightings",
+        "evidence_cited": ["Small town", "News may have spread", "Brief timeframe"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "significance": "Became part of Massachusetts cryptid folklore despite brief appearance"
+    },
+    "popular_culture": {
+      "literature": [
+        "Loren Coleman writings on Dover Demon",
+        "Cryptozoology texts",
+        "Local folklore collections"
+      ],
+      "media": [
+        "Featured in cryptozoology documentaries",
+        "Local Massachusetts legend",
+        "Internet cryptid discussions"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Loren Coleman",
+        "affiliation": "Cryptozoologist",
+        "contribution": "Primary investigator, coined name 'Dover Demon,' interviewed witnesses",
+        "period": "1977-present"
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "coleman-1977",
+      "type": "investigation",
+      "title": "Dover Demon Investigation Notes",
+      "authors": ["Loren Coleman"],
+      "date": "1977"
+    },
+    {
+      "id": "coleman-cryptozoology",
+      "type": "book",
+      "title": "Mysterious America",
+      "authors": ["Loren Coleman"],
+      "publication": "Paraview Press",
+      "date": "2007",
+      "isbn": "978-1931044677"
+    }
+  ]
+}
