@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/dover-demon",
     "maintainers": [
       {
@@ -20,76 +20,175 @@
     "id": "dover-demon",
     "name": "Dover Demon",
     "aliases": [],
-    "category": "|_CRYPTID_|",
-    "subcategory": "Unknown",
+    "category": "CRYPTID",
+    "subcategory": "Localized humanoid cryptid",
     "tags": [
-      "folklore",
-      "mythology"
+      "cryptid",
+      "humanoid",
+      "massachusetts",
+      "1977",
+      "single-event",
+      "north-america"
     ],
-    "status": "documented",
+    "status": "dormant",
     "description": {
-      "summary": "The Dover Demon is a cryptid reported during a brief 25-hour period in April 1977 in Dover, Massachusetts.",
-      "full": "The Dover Demon is a cryptid reported during a brief 25-hour period in April 1977 in Dover, Massachusetts. Four teenage witnesses independently described a bizarre humanoid creature standing 3-4 feet tall with a disproportionately large, watermelon-shaped head, glowing orange eyes, long thin fingers, and rough peach-colored or gray skin. Cryptozoologist Loren Coleman investigated the sightings and coined the name \\\"Dover Demon.\\\" The witnesses drew sketches independently that showed remarkable consistency. No further sightings have been reported since April 22, 1977, making it one of the most concentrated and enigmatic cryptid events in American folklore."
+      "summary": "A small, large-headed humanoid cryptid reportedly seen by three teenage witnesses in Dover, Massachusetts, on the nights of 21–22 April 1977; no further sightings have been recorded.",
+      "full": "The Dover Demon is the name given to a creature reportedly seen by three teenage witnesses in the town of Dover, Massachusetts, on the nights of 21 and 22 April 1977. Witnesses described a creature roughly four feet tall, with a disproportionately large, watermelon-shaped head, glowing orange eyes, no nose or mouth, long thin fingers, and rough peach-colored skin. The three sighting locations — on Farm Street, Miller Hill Road, and Springdale Avenue — lie roughly in a straight line over a span of more than two miles. Cryptozoologist Loren Coleman publicized and named the creature shortly after the sightings, and the case has since become a staple of New England cryptid lore. No further sightings have been reported. Skeptical explanations have ranged from a misidentified snowy owl (proposed by Joe Nickell) to influence from contemporary popular culture (notably Star Wars and Close Encounters of the Third Kind, both released in 1977; argued by Benjamin Radford), as well as suggestions of a foal or moose calf."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Modern English; coined to associate the creature with the town of Dover, Massachusetts",
+      "meaning": "'Demon' is used here in the loose folkloric sense rather than a religious one",
+      "first_use": "1977 — name popularized by cryptozoologist Loren Coleman"
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "|_CRYPTID_|",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "CRYPTID",
+      "type": "Humanoid",
+      "subtype": "Localized small-humanoid cryptid",
+      "variant": "New England single-incident case"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "hopkinsville-goblins", "name": "Hopkinsville Goblins", "relationship": "similar", "description": "Single-event small-humanoid cryptid case (Kentucky, 1955)" },
+      { "id": "flatwoods-monster", "name": "Flatwoods Monster", "relationship": "similar", "description": "Single-event humanoid cryptid case (West Virginia, 1952)" },
+      { "id": "fresno-nightcrawlers", "name": "Fresno Nightcrawlers", "relationship": "similar", "description": "Modern small humanoid cryptid reports (California)" },
+      { "id": "loveland-frog", "name": "Loveland Frog", "relationship": "similar", "description": "Small humanoid cryptid case (Ohio)" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 0.9, "max": 1.2, "unit": "meters", "confidence": "low" },
+      "coloration": ["peach (Bartlett description)", "tan or sand-colored (other accounts)"],
+      "features": [
+        { "feature": "Watermelon-shaped head", "description": "Head described as disproportionately large and oblong relative to the body", "frequency": "always" },
+        { "feature": "Glowing orange eyes", "description": "Witnesses described large, glowing orange eyes; one witness (Brabham) reported green eyes instead", "frequency": "always" },
+        { "feature": "No visible nose or mouth", "description": "Face was reported as featureless apart from the eyes", "frequency": "always" },
+        { "feature": "Long thin fingers and limbs", "description": "Spindly arms and fingers, gripping a wall in Bartlett's account", "frequency": "always" },
+        { "feature": "Rough skin", "description": "Skin texture described as rough, like sandpaper", "frequency": "common" }
+      ],
+      "morphology": "A small, gracile humanoid with a disproportionately large head and spindly limbs, witnessed only over a single 25-hour period."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Climbing", "description": "Bartlett described the creature gripping the top of a low stone wall", "frequency": "occasional", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "passive",
+      "social_structure": "solitary",
+      "habitat_preference": ["wooded suburban roadsides in eastern Massachusetts"],
+      "patterns": [
+        "All three reported sightings occurred at night",
+        "The three locations lie roughly in a straight line over more than 2 miles",
+        "No further sightings have been reported since 22 April 1977"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Three reported sightings in the town of Dover, Massachusetts, on Farm Street, Miller Hill Road, and Springdale Avenue, on the nights of 21–22 April 1977.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "New England",
+        "Massachusetts",
+        "Norfolk County"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Dover, Massachusetts",
+        "location": {
+          "description": "Town of Dover, Norfolk County, Massachusetts (Farm Street, Miller Hill Road, Springdale Avenue)",
+          "country": "United States",
+          "region": "Massachusetts"
+        },
+        "peak_period": "1977-04-21 to 1977-04-22",
+        "notes": "Site of all three reported encounters"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1977-04-21",
+        "circa": false,
+        "source": "Bill Bartlett encounter on Farm Street, Dover, Massachusetts"
+      },
+      "peak_activity_periods": [
+        { "period": "1977-04-21 to 1977-04-22", "description": "Entire reported activity confined to a roughly 25-hour window" }
+      ]
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Modern American suburban cryptid case, situated within the broader US tradition of localized humanoid cryptid encounters (Hopkinsville, Flatwoods).",
+      "earliest_accounts": "First reported encounter on the night of 21 April 1977 by Bill Bartlett driving on Farm Street, Dover, Massachusetts.",
+      "folklore_connections": "Often grouped with other 1970s small-humanoid cryptids in popular literature."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1977-04-21", "event": "Bill Bartlett (17), driving on Farm Street, Dover, Massachusetts, reports seeing a small creature on a low stone wall", "significance": "First reported sighting", "source": "Wikipedia: Dover Demon" },
+      { "date": "1977-04-21", "event": "Later that same night, John Baxter (15) reports seeing a similar creature on Miller Hill Road in Dover", "significance": "Second sighting", "source": "Wikipedia: Dover Demon" },
+      { "date": "1977-04-22", "event": "Abby Brabham (15) reports seeing the creature on Springdale Avenue in Dover", "significance": "Third and final sighting", "source": "Wikipedia: Dover Demon" },
+      { "date": "1977-05-01", "event": "Sightings publicized in May 1977; cryptozoologist Loren Coleman investigates and the name 'Dover Demon' is coined", "significance": "Establishment of the case in cryptid literature", "source": "Wikipedia: Dover Demon" }
+    ],
+    "modern_era": "The Dover Demon remains a touchstone of New England cryptid lore, with no further sightings recorded; it has appeared in television series (Lost Tapes, 2009), comics (Proof, The Perhapanauts), and the anime Dandadan."
   },
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 3,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 3,
+      "debunked": 0,
+      "date_range": { "earliest": "1977-04-21", "latest": "1977-04-22" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "dover-demon-sighting-bartlett-1977",
+        "name": "Bill Bartlett encounter, Farm Street",
+        "date": { "value": "1977-04-21", "precision": "exact" },
+        "location": {
+          "description": "Farm Street, Dover, Massachusetts",
+          "country": "United States",
+          "region": "Massachusetts",
+          "locality": "Dover (Norfolk County)"
+        },
+        "witnesses": { "count": 1, "types": ["Bill Bartlett, age 17"], "credibility_factors": ["Independent sketch made by witness", "Account given to local police and investigators"] },
+        "description": "Driving along Farm Street at night, Bill Bartlett (17) reportedly saw a small humanoid creature with a watermelon-shaped head, glowing orange eyes, and long fingers, atop a broken low stone wall. He sketched the creature shortly afterwards.",
+        "credibility": { "rating": "low", "factors": ["Single-witness", "Police treated as possible school-vacation hoax"], "notes": "First and most-cited of the three encounters." },
+        "sources": ["Wikipedia: Dover Demon", "Coleman, L., investigative reports (1977)"],
+        "featured": true
+      },
+      {
+        "id": "dover-demon-sighting-baxter-1977",
+        "name": "John Baxter encounter, Miller Hill Road",
+        "date": { "value": "1977-04-21", "precision": "exact" },
+        "location": {
+          "description": "Miller Hill Road, Dover, Massachusetts",
+          "country": "United States",
+          "region": "Massachusetts",
+          "locality": "Dover"
+        },
+        "witnesses": { "count": 1, "types": ["John Baxter, age 15"], "credibility_factors": ["Independent of Bartlett encounter at the time"] },
+        "description": "Later the same night, walking on Miller Hill Road, John Baxter (15) reported seeing a similar creature, which he initially mistook for a small child before noting the same distinctive features described by Bartlett.",
+        "credibility": { "rating": "low", "factors": ["Single-witness", "Sighting publicized after Bartlett's"], "notes": "Second of the three encounters." },
+        "sources": ["Wikipedia: Dover Demon"],
+        "featured": true
+      },
+      {
+        "id": "dover-demon-sighting-brabham-1977",
+        "name": "Abby Brabham encounter, Springdale Avenue",
+        "date": { "value": "1977-04-22", "precision": "exact" },
+        "location": {
+          "description": "Springdale Avenue, Dover, Massachusetts",
+          "country": "United States",
+          "region": "Massachusetts",
+          "locality": "Dover"
+        },
+        "witnesses": { "count": 1, "types": ["Abby Brabham, age 15"], "credibility_factors": ["Sighting reported in a vehicle with another teenager"] },
+        "description": "On the night of 22 April 1977, Abby Brabham (15) reported seeing the creature from a passing car on Springdale Avenue. Her description matched the previous accounts, though she described the eyes as green rather than orange.",
+        "credibility": { "rating": "low", "factors": ["Single-witness", "Possible influence of prior reports"], "notes": "Third and final reported sighting." },
+        "sources": ["Wikipedia: Dover Demon"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
   "evidence": {
@@ -97,30 +196,88 @@
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "dover-demon-evidence-witness-sketches",
+        "type": "drawing",
+        "name": "Witness sketches by Bartlett, Baxter, and Brabham",
+        "date": "1977-04",
+        "description": "Pencil sketches drawn by the three teenage witnesses shortly after their respective encounters; cited by Coleman as showing notable consistency across the three accounts.",
+        "status": "disputed",
+        "analysis": "Coleman and other cryptozoologists treat the consistency between sketches as supportive of the case; skeptics treat similarity as a result of social transmission within a small town.",
+        "source": "Coleman, L., investigative materials (1977)"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Cryptid humanoid",
+        "description": "Cryptozoological framing in which the witnesses encountered an unknown small humanoid creature.",
+        "proponents": ["Loren Coleman"],
+        "evidence_cited": ["Independent sketches by three witnesses", "Roughly co-linear sighting locations"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Snowy owl misidentification",
+        "description": "Joe Nickell has argued that a juvenile or fledgling owl, in particular a snowy owl, illuminated by car headlights at close range, is consistent with the witnesses' descriptions of large eyes, an oversized head, and a peach-colored sheen.",
+        "proponents": ["Joe Nickell"],
+        "evidence_cited": ["Anatomy and night behavior of owls", "Effect of vehicle headlights on observer perception"]
+      },
+      {
+        "name": "Pop-culture priming",
+        "description": "Benjamin Radford has argued that contemporary 1977 popular culture — including Star Wars and Close Encounters of the Third Kind — primed teenage witnesses to interpret an ambiguous nocturnal stimulus in alien-cryptid terms.",
+        "proponents": ["Benjamin Radford"],
+        "evidence_cited": ["Cultural release context of 1977", "Patterns in juvenile witness reports"]
+      },
+      {
+        "name": "School-vacation hoax",
+        "description": "Local police initially treated the reports as a school-vacation prank, noting the timing during the witnesses' school break.",
+        "proponents": ["Dover Police Department (1977)"],
+        "evidence_cited": ["Concentration of sightings in a single 25-hour period", "Witness ages"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Modern New England cryptid lore"
+      ],
+      "stories": [
+        "The 25-hour Dover Demon flap of April 1977"
+      ],
+      "beliefs": "The Dover Demon remains a recognized landmark of late-20th-century American cryptozoology despite the absence of any subsequent encounters."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Mysterious America — Loren Coleman (multiple editions)",
+        "Encyclopedia of Cryptozoology — Michael Newton (2005)"
+      ],
+      "film_tv": [
+        "Lost Tapes — Animal Planet (2009)"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Featured in the comic Proof (Image Comics)",
+        "Featured in The Perhapanauts (Image Comics)",
+        "Anime Dandadan adaptation references"
+      ]
     }
   },
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Loren Coleman", "affiliation": "International Cryptozoology Museum", "contribution": "Investigated the case in 1977, coined the name 'Dover Demon', and continues to document it in cryptozoological literature", "period": "1977–present" }
+    ],
+    "organizations": [
+      { "name": "International Cryptozoology Museum", "url": "https://cryptozoologymuseum.com", "focus": "Cryptozoology archive including Dover Demon materials" }
+    ],
+    "ongoing_studies": "No active scientific investigation; the case is treated as a closed historical incident in cryptozoology."
   },
-  "sources": []
+  "sources": [
+    { "id": "wikipedia-dover-demon", "type": "website", "title": "Dover Demon", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Dover_Demon", "accessed": "2026-05-07" },
+    { "id": "newton-2005", "type": "book", "title": "Encyclopedia of Cryptozoology: A Global Guide to Hidden Animals and Their Pursuers", "authors": ["Michael Newton"], "publication": "McFarland", "date": "2005", "isbn": "978-0786420360" }
+  ]
 }
